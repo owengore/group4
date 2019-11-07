@@ -7,7 +7,7 @@ These rules must be followed **AT ALL TIMES**.
 
 ### Functions
 
-Function names must be written in * Lower Camel Case*. Example shown below.
+Function names must be written in *Lower Camel Case*. Example shown below.
 ```sh
 void exampleFunction {
 }
