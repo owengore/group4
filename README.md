@@ -45,7 +45,7 @@ const int originalvalue = 2;
 }
 ```
 
-*Method 2* only to be used ***ANYWHERE ELSE***
+*Method 2* to be used ***ANYWHERE ELSE***
 
 ```sh
 void exampleFunction {
