@@ -25,7 +25,6 @@ int counter = 0;
 
 
 void initialiseSleep() { //Function for deep sleep mode
-  Serial.begin(115200);
   delay(500); //Take some time to open up the Serial Monitor
 
 
@@ -42,7 +41,7 @@ void initialiseLora (){ //Function to setup LoRa in the correct way
   
   while (!Serial);
   
-  LoRa.setPins(18,14,26); //Need to put the relevant pins (May beed to be changed) (ss,reset,dio0)
+  LoRa.setPins(18,14,26); //Need to put the relevant pins (May need to be changed) (ss,reset,dio0)
   if (!LoRa.begin(868E6)) { //Start LoRa at 868MHz
     Serial.println("Starting LoRa failed!"); //If this fails write it to serial monitor
     while (1);
